@@ -1,4 +1,4 @@
-# Repository for ICML 2021 paper: [Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks](https://arxiv.org/abs/2103.04886). 
+### Repository for ICML 2021 paper: [Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks](https://arxiv.org/abs/2103.04886). 
 This repo contains the normalization implementation for the paper "Lipschitz Normalization for Self-Attention Layers with Application to Graph Neural Networks."
 
 ### Dependencies
