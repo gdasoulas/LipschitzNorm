@@ -9,7 +9,7 @@ class Quadratic_LipschitzNorm(nn.Module):
 
     def forward(self, Q, K, V, alpha, index):
         
-        Q_F = torch.norm(Q) # frobenious norm of Q
+        Q_F = torch.norm(Q,dim=[0,2]) # frobenious norm of Q, multihead
         K_2 = torch.norm(K,dim = -1)
         V_2 = torch.norm(V,dim = -1)
         K_inf_2 = scatter(src= K_2, index = index, dim=0, reduce = 'max')
